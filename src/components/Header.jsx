@@ -1,6 +1,11 @@
+import Navbar from "./Navbar";
+
 function Header() {
-  return <div>Header</div>;
+  return (
+    <header>
+      <Navbar />
+    </header>
+  );
 }
 
 export default Header;
- 
